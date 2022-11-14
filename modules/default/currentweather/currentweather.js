@@ -100,6 +100,7 @@ Module.register("currentweather", {
 
 		// Set locale.
 		moment.locale(config.language);
+		moment.locale("zh-cn");
 
 		this.windSpeed = null;
 		this.windDirection = null;
